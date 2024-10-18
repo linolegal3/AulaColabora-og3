@@ -1,87 +1,66 @@
-
 * {
-    margin: 0px;
-    padding: 50px;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  header {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding-top: 80px;
+}
 
-  main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+header {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-  footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+header h1 {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
 
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h2 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #4b6cb7;
+}
+
+a {
+  color: #4b6cb7;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #182848;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.2);
+}
